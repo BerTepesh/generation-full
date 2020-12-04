@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+//= template/head.html
+<body>
+  <div class="wrap">
+    <main role="main" class="content">
+      <input type="button" onclick="engine.render(50);" value="start">
+      <input type="button" onclick="engine.stop();" value="stop">
+      <div class="main-layout">
+        <h1 class="main-layout__title">Генерация электроэнергии <br> из отходов</h1>
+      </div>
+      <div class="stages">
+        <div class="stages__line">
+          <div class="stage stage_recicle recicle">
+            <div class="stage__holder">
+              <div class="stage__ico"><span class="icon-recicle"></span></div>
+              <div class="stage__name">СОРТИРОВКА <br>Мусора</div>
+              <div class="stage__tube"></div>
+              <div class="flows" id="recicle">
+                
+              </div>
+            </div>
+            <div class="stage__label">Мусоровозы привозят отсортированные отходы, не подлежащие вторичной переработке, в приемный бункер</div>
+          </div>
+          <div class="stage stage_inner stage_bunker bunker">
+            <div class="stage__holder">
+              <div class="stage__ico"><span class="icon-crane"></span></div>
+              <div class="stage__name">ПРИЁМНЫЙ <br>БУНКЕР</div>
+              <div class="stage__coming stage__coming_right">ОТХОДЫ</div>
+              <div class="stage__tube"></div>
+              <div class="flows" id="bunker">
+                
+              </div>
+            </div>
+            <div class="stage__label">Отходы грейферным краном загружаются в установки для сжигания</div>
+          </div>
+          <div class="stage stage_inner stage_filter filter">
+            <span class="icon-filter"></span>
+            <span class="filter__label">ФИЛЬТРЫ</span>
+            <div class="stage__label">Дымовые газы проходят 3-ступенчатую очистку</div>
+            <div class="stage__tube stage__tube_filter"></div>
+            <div class="flows" id="filter">
+                
+            </div>
+            <div class="filter__caption">Чистый воздух</div>
+            <div class="filter__ico">
+              <span class="icon-co2"></span>
+              <span class="icon-co2"></span>
+              <span class="icon-co2"></span>
+            </div>
+          </div>
+          <div class="stage stage_large stage_right stage_ash">
+            <div class="stage__wrap">
+              <div class="stage__holder">
+                <div class="stage__ico"><span class="icon-ash"></span></div>
+                <div class="stage__name">ЛЕТУЧАЯ Зола <br>3%</div>
+              </div>
+              <div class="stage__label">Зола <br> нейтрализуется путем цементирования</div>
+            </div>
+          </div>
+        </div>
+        <div class="stages__line">
+          <div class="stage stage_inner stage_burn burn">
+            <div class="stage__holder">
+              <div class="stage__ico"><span class="icon-burn"></span></div>
+              <div class="stage__name">Установка <br>для сжигания</div>
+              <div class="stage__coming stage__coming_up">ГАЗ</div>
+              <div class="stage__coming stage__coming_right">ШЛАК</div>
+              <div class="stage__coming stage__coming_bottom">ПАР</div>
+              <div class="stage__tube stage__tube_gaz"></div>
+              <div class="stage__tube stage__tube_couples">
+                <span></span><span></span>
+              </div>
+              <div class="stage__tube stage__tube_slag"></div>
+              <div class="flows" id="burn">
+                
+              </div>
+            </div>
+          </div>
+          <div class="stage stage_large stage_right stage_slag">
+            <div class="stage__wrap">
+              <div class="stage__holder">
+                <div class="stage__ico"><span class="icon-slag"></span></div>
+                <div class="stage__name">ШЛАК
+                  <span>10% от объема <br>отходов</span></div>
+              </div>
+              <div class="stage__label">Из шлака отбираются полезные фракции: черные и цветные металлы. Остальное направляется на дорожное строительство</div>
+            </div>
+          </div>
+        </div>
+        <div class="stages__line">
+          <div class="stage stage_inner stage_capacitor">
+            <div class="stage__holder">
+              <div class="stage__ico"><span class="icon-capacitor"></span></div>
+              <div class="stage__name">Конденсатор</div>
+              <div class="stage__coming stage__coming_up">КОНДЕНСАТ</div>
+              <div class="stage__tube"><span></span><span></span></div>
+              <div class="flows" id="capacitor">
+                
+              </div>
+            </div>
+          </div>
+          <div class="stage stage_inner stage_turbo turbo">
+            <div class="stage__holder">
+              <div class="stage__ico"><span class="icon-turbo"></span></div>
+              <div class="stage__name">ТУРБО <br>ГЕНЕРАТОР</div>
+              <div class="stage__tube stage__tube_turbo"></div>
+              <div class="stage__tube stage__tube_turbo"></div>
+              <div class="flows" id="turbo">
+                
+              </div>
+            </div>
+            <div class="stage__label">Тепловая энергия пара преобразуется в электрическую</div>
+          </div>
+          <div class="stage stage_large stage_right stage_energy energy">
+            <div class="stage__wrap">
+              <div class="stage__holder">
+                <div class="stage__ico"><span class="icon-energy"></span></div>
+                <div class="stage__name">Электроэнергия</div>
+                <span class="icon-flash"></span>
+                <span class="icon-flash"></span>
+                <span class="icon-flash"></span>
+                <span class="icon-flash"></span>
+              </div>
+              <div class="stage__label">Электроэнергия поставляется в сеть для нужд потребителей</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  //= template/scripts.html
+</body>
+</html>

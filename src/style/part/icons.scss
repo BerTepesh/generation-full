@@ -1,0 +1,73 @@
+@import "sprite";
+
+[class^='icon-'], [class*=' icon-'] {
+  display: inline-block;
+  vertical-align: middle;
+  background: url('../img/sprite.png') -9999px -9999px no-repeat;
+}
+@media (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
+  [class^='icon-'], [class*=' icon-'] {
+    background-image: url('../img/sprite@2x.png');
+    @include sprite-background-size($recicle);
+  }
+}
+
+@mixin set-sprite($sprite) {
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+.icon-recicle {
+  @include set-sprite($recicle);
+}
+.icon-crane {
+  @include set-sprite($crane);
+}
+.icon-filter {
+  @include set-sprite($filter);
+}
+.icon-ash {
+  @include set-sprite($ash);
+}
+.icon-burn {
+  @include set-sprite($burn);
+}
+.icon-slag {
+  @include set-sprite($slag);
+}
+.icon-capacitor {
+  @include set-sprite($capacitor);
+}
+.icon-turbo {
+  @include set-sprite($turbo);
+}
+.icon-energy {
+  @include set-sprite($energy);
+}
+.icon-co2 {
+  @include set-sprite($co2);
+}
+.icon-flash {
+  @include set-sprite($flash);
+}
+.icon-flash-other {
+  @include set-sprite($flash-other);
+}
+.icon-couples {
+  @include set-sprite($couples);
+}
+.icon-recicle-flow {
+  @include set-sprite($recicle-flow);
+}
+.icon-burn-flow {
+  @include set-sprite($burn-flow);
+}
+.icon-filter-tube {
+  @include set-sprite($filter-tube);
+}
+.icon-smoke {
+  @include set-sprite($smoke);
+}
+.icon-condensate {
+  @include set-sprite($condensate);
+}

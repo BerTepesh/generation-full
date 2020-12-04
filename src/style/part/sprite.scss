@@ -1,0 +1,562 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$ash-name: 'ash';
+$ash-x: 104px;
+$ash-y: 45px;
+$ash-offset-x: -104px;
+$ash-offset-y: -45px;
+$ash-width: 67px;
+$ash-height: 42px;
+$ash-total-width: 259px;
+$ash-total-height: 170px;
+$ash-image: '/img/sprite.png';
+$ash: (104px, 45px, -104px, -45px, 67px, 42px, 259px, 170px, '/img/sprite.png', 'ash', );
+$burn-flow-name: 'burn-flow';
+$burn-flow-x: 104px;
+$burn-flow-y: 92px;
+$burn-flow-offset-x: -104px;
+$burn-flow-offset-y: -92px;
+$burn-flow-width: 10px;
+$burn-flow-height: 10px;
+$burn-flow-total-width: 259px;
+$burn-flow-total-height: 170px;
+$burn-flow-image: '/img/sprite.png';
+$burn-flow: (104px, 92px, -104px, -92px, 10px, 10px, 259px, 170px, '/img/sprite.png', 'burn-flow', );
+$burn-name: 'burn';
+$burn-x: 216px;
+$burn-y: 137px;
+$burn-offset-x: -216px;
+$burn-offset-y: -137px;
+$burn-width: 22px;
+$burn-height: 29px;
+$burn-total-width: 259px;
+$burn-total-height: 170px;
+$burn-image: '/img/sprite.png';
+$burn: (216px, 137px, -216px, -137px, 22px, 29px, 259px, 170px, '/img/sprite.png', 'burn', );
+$capacitor-name: 'capacitor';
+$capacitor-x: 216px;
+$capacitor-y: 0px;
+$capacitor-offset-x: -216px;
+$capacitor-offset-y: 0px;
+$capacitor-width: 43px;
+$capacitor-height: 43px;
+$capacitor-total-width: 259px;
+$capacitor-total-height: 170px;
+$capacitor-image: '/img/sprite.png';
+$capacitor: (216px, 0px, -216px, 0px, 43px, 43px, 259px, 170px, '/img/sprite.png', 'capacitor', );
+$co2-name: 'co2';
+$co2-x: 202px;
+$co2-y: 45px;
+$co2-offset-x: -202px;
+$co2-offset-y: -45px;
+$co2-width: 4px;
+$co2-height: 14px;
+$co2-total-width: 259px;
+$co2-total-height: 170px;
+$co2-image: '/img/sprite.png';
+$co2: (202px, 45px, -202px, -45px, 4px, 14px, 259px, 170px, '/img/sprite.png', 'co2', );
+$condensate-name: 'condensate';
+$condensate-x: 180px;
+$condensate-y: 107px;
+$condensate-offset-x: -180px;
+$condensate-offset-y: -107px;
+$condensate-width: 16px;
+$condensate-height: 11px;
+$condensate-total-width: 259px;
+$condensate-total-height: 170px;
+$condensate-image: '/img/sprite.png';
+$condensate: (180px, 107px, -180px, -107px, 16px, 11px, 259px, 170px, '/img/sprite.png', 'condensate', );
+$couples-name: 'couples';
+$couples-x: 162px;
+$couples-y: 107px;
+$couples-offset-x: -162px;
+$couples-offset-y: -107px;
+$couples-width: 13px;
+$couples-height: 17px;
+$couples-total-width: 259px;
+$couples-total-height: 170px;
+$couples-image: '/img/sprite.png';
+$couples: (162px, 107px, -162px, -107px, 13px, 17px, 259px, 170px, '/img/sprite.png', 'couples', );
+$crane-name: 'crane';
+$crane-x: 216px;
+$crane-y: 93px;
+$crane-offset-x: -216px;
+$crane-offset-y: -93px;
+$crane-width: 36px;
+$crane-height: 39px;
+$crane-total-width: 259px;
+$crane-total-height: 170px;
+$crane-image: '/img/sprite.png';
+$crane: (216px, 93px, -216px, -93px, 36px, 39px, 259px, 170px, '/img/sprite.png', 'crane', );
+$energy-name: 'energy';
+$energy-x: 0px;
+$energy-y: 107px;
+$energy-offset-x: 0px;
+$energy-offset-y: -107px;
+$energy-width: 64px;
+$energy-height: 63px;
+$energy-total-width: 259px;
+$energy-total-height: 170px;
+$energy-image: '/img/sprite.png';
+$energy: (0px, 107px, 0px, -107px, 64px, 63px, 259px, 170px, '/img/sprite.png', 'energy', );
+$filter-tube-name: 'filter-tube';
+$filter-tube-x: 197px;
+$filter-tube-y: 69px;
+$filter-tube-offset-x: -197px;
+$filter-tube-offset-y: -69px;
+$filter-tube-width: 11px;
+$filter-tube-height: 10px;
+$filter-tube-total-width: 259px;
+$filter-tube-total-height: 170px;
+$filter-tube-image: '/img/sprite.png';
+$filter-tube: (197px, 69px, -197px, -69px, 11px, 10px, 259px, 170px, '/img/sprite.png', 'filter-tube', );
+$filter-name: 'filter';
+$filter-x: 0px;
+$filter-y: 0px;
+$filter-offset-x: 0px;
+$filter-offset-y: 0px;
+$filter-width: 99px;
+$filter-height: 102px;
+$filter-total-width: 259px;
+$filter-total-height: 170px;
+$filter-image: '/img/sprite.png';
+$filter: (0px, 0px, 0px, 0px, 99px, 102px, 259px, 170px, '/img/sprite.png', 'filter', );
+$flash-other-name: 'flash-other';
+$flash-other-x: 243px;
+$flash-other-y: 137px;
+$flash-other-offset-x: -243px;
+$flash-other-offset-y: -137px;
+$flash-other-width: 15px;
+$flash-other-height: 21px;
+$flash-other-total-width: 259px;
+$flash-other-total-height: 170px;
+$flash-other-image: '/img/sprite.png';
+$flash-other: (243px, 137px, -243px, -137px, 15px, 21px, 259px, 170px, '/img/sprite.png', 'flash-other', );
+$flash-name: 'flash';
+$flash-x: 176px;
+$flash-y: 69px;
+$flash-offset-x: -176px;
+$flash-offset-y: -69px;
+$flash-width: 16px;
+$flash-height: 15px;
+$flash-total-width: 259px;
+$flash-total-height: 170px;
+$flash-image: '/img/sprite.png';
+$flash: (176px, 69px, -176px, -69px, 16px, 15px, 259px, 170px, '/img/sprite.png', 'flash', );
+$recicle-flow-name: 'recicle-flow';
+$recicle-flow-x: 140px;
+$recicle-flow-y: 107px;
+$recicle-flow-offset-x: -140px;
+$recicle-flow-offset-y: -107px;
+$recicle-flow-width: 17px;
+$recicle-flow-height: 20px;
+$recicle-flow-total-width: 259px;
+$recicle-flow-total-height: 170px;
+$recicle-flow-image: '/img/sprite.png';
+$recicle-flow: (140px, 107px, -140px, -107px, 17px, 20px, 259px, 170px, '/img/sprite.png', 'recicle-flow', );
+$recicle-name: 'recicle';
+$recicle-x: 216px;
+$recicle-y: 48px;
+$recicle-offset-x: -216px;
+$recicle-offset-y: -48px;
+$recicle-width: 43px;
+$recicle-height: 40px;
+$recicle-total-width: 259px;
+$recicle-total-height: 170px;
+$recicle-image: '/img/sprite.png';
+$recicle: (216px, 48px, -216px, -48px, 43px, 40px, 259px, 170px, '/img/sprite.png', 'recicle', );
+$slag-name: 'slag';
+$slag-x: 104px;
+$slag-y: 0px;
+$slag-offset-x: -104px;
+$slag-offset-y: 0px;
+$slag-width: 107px;
+$slag-height: 40px;
+$slag-total-width: 259px;
+$slag-total-height: 170px;
+$slag-image: '/img/sprite.png';
+$slag: (104px, 0px, -104px, 0px, 107px, 40px, 259px, 170px, '/img/sprite.png', 'slag', );
+$smoke-name: 'smoke';
+$smoke-x: 176px;
+$smoke-y: 45px;
+$smoke-offset-x: -176px;
+$smoke-offset-y: -45px;
+$smoke-width: 21px;
+$smoke-height: 19px;
+$smoke-total-width: 259px;
+$smoke-total-height: 170px;
+$smoke-image: '/img/sprite.png';
+$smoke: (176px, 45px, -176px, -45px, 21px, 19px, 259px, 170px, '/img/sprite.png', 'smoke', );
+$turbo-name: 'turbo';
+$turbo-x: 69px;
+$turbo-y: 107px;
+$turbo-offset-x: -69px;
+$turbo-offset-y: -107px;
+$turbo-width: 66px;
+$turbo-height: 37px;
+$turbo-total-width: 259px;
+$turbo-total-height: 170px;
+$turbo-image: '/img/sprite.png';
+$turbo: (69px, 107px, -69px, -107px, 66px, 37px, 259px, 170px, '/img/sprite.png', 'turbo', );
+$ash-2x-name: 'ash@2x';
+$ash-2x-x: 208px;
+$ash-2x-y: 90px;
+$ash-2x-offset-x: -208px;
+$ash-2x-offset-y: -90px;
+$ash-2x-width: 134px;
+$ash-2x-height: 84px;
+$ash-2x-total-width: 518px;
+$ash-2x-total-height: 340px;
+$ash-2x-image: '/img/sprite@2x.png';
+$ash-2x: (208px, 90px, -208px, -90px, 134px, 84px, 518px, 340px, '/img/sprite@2x.png', 'ash@2x', );
+$burn-flow-2x-name: 'burn-flow@2x';
+$burn-flow-2x-x: 208px;
+$burn-flow-2x-y: 184px;
+$burn-flow-2x-offset-x: -208px;
+$burn-flow-2x-offset-y: -184px;
+$burn-flow-2x-width: 20px;
+$burn-flow-2x-height: 20px;
+$burn-flow-2x-total-width: 518px;
+$burn-flow-2x-total-height: 340px;
+$burn-flow-2x-image: '/img/sprite@2x.png';
+$burn-flow-2x: (208px, 184px, -208px, -184px, 20px, 20px, 518px, 340px, '/img/sprite@2x.png', 'burn-flow@2x', );
+$burn-2x-name: 'burn@2x';
+$burn-2x-x: 432px;
+$burn-2x-y: 274px;
+$burn-2x-offset-x: -432px;
+$burn-2x-offset-y: -274px;
+$burn-2x-width: 44px;
+$burn-2x-height: 58px;
+$burn-2x-total-width: 518px;
+$burn-2x-total-height: 340px;
+$burn-2x-image: '/img/sprite@2x.png';
+$burn-2x: (432px, 274px, -432px, -274px, 44px, 58px, 518px, 340px, '/img/sprite@2x.png', 'burn@2x', );
+$capacitor-2x-name: 'capacitor@2x';
+$capacitor-2x-x: 432px;
+$capacitor-2x-y: 0px;
+$capacitor-2x-offset-x: -432px;
+$capacitor-2x-offset-y: 0px;
+$capacitor-2x-width: 86px;
+$capacitor-2x-height: 86px;
+$capacitor-2x-total-width: 518px;
+$capacitor-2x-total-height: 340px;
+$capacitor-2x-image: '/img/sprite@2x.png';
+$capacitor-2x: (432px, 0px, -432px, 0px, 86px, 86px, 518px, 340px, '/img/sprite@2x.png', 'capacitor@2x', );
+$co2-2x-name: 'co2@2x';
+$co2-2x-x: 404px;
+$co2-2x-y: 90px;
+$co2-2x-offset-x: -404px;
+$co2-2x-offset-y: -90px;
+$co2-2x-width: 8px;
+$co2-2x-height: 28px;
+$co2-2x-total-width: 518px;
+$co2-2x-total-height: 340px;
+$co2-2x-image: '/img/sprite@2x.png';
+$co2-2x: (404px, 90px, -404px, -90px, 8px, 28px, 518px, 340px, '/img/sprite@2x.png', 'co2@2x', );
+$condensate-2x-name: 'condensate@2x';
+$condensate-2x-x: 360px;
+$condensate-2x-y: 214px;
+$condensate-2x-offset-x: -360px;
+$condensate-2x-offset-y: -214px;
+$condensate-2x-width: 32px;
+$condensate-2x-height: 22px;
+$condensate-2x-total-width: 518px;
+$condensate-2x-total-height: 340px;
+$condensate-2x-image: '/img/sprite@2x.png';
+$condensate-2x: (360px, 214px, -360px, -214px, 32px, 22px, 518px, 340px, '/img/sprite@2x.png', 'condensate@2x', );
+$couples-2x-name: 'couples@2x';
+$couples-2x-x: 324px;
+$couples-2x-y: 214px;
+$couples-2x-offset-x: -324px;
+$couples-2x-offset-y: -214px;
+$couples-2x-width: 26px;
+$couples-2x-height: 34px;
+$couples-2x-total-width: 518px;
+$couples-2x-total-height: 340px;
+$couples-2x-image: '/img/sprite@2x.png';
+$couples-2x: (324px, 214px, -324px, -214px, 26px, 34px, 518px, 340px, '/img/sprite@2x.png', 'couples@2x', );
+$crane-2x-name: 'crane@2x';
+$crane-2x-x: 432px;
+$crane-2x-y: 186px;
+$crane-2x-offset-x: -432px;
+$crane-2x-offset-y: -186px;
+$crane-2x-width: 72px;
+$crane-2x-height: 78px;
+$crane-2x-total-width: 518px;
+$crane-2x-total-height: 340px;
+$crane-2x-image: '/img/sprite@2x.png';
+$crane-2x: (432px, 186px, -432px, -186px, 72px, 78px, 518px, 340px, '/img/sprite@2x.png', 'crane@2x', );
+$energy-2x-name: 'energy@2x';
+$energy-2x-x: 0px;
+$energy-2x-y: 214px;
+$energy-2x-offset-x: 0px;
+$energy-2x-offset-y: -214px;
+$energy-2x-width: 128px;
+$energy-2x-height: 126px;
+$energy-2x-total-width: 518px;
+$energy-2x-total-height: 340px;
+$energy-2x-image: '/img/sprite@2x.png';
+$energy-2x: (0px, 214px, 0px, -214px, 128px, 126px, 518px, 340px, '/img/sprite@2x.png', 'energy@2x', );
+$filter-tube-2x-name: 'filter-tube@2x';
+$filter-tube-2x-x: 394px;
+$filter-tube-2x-y: 138px;
+$filter-tube-2x-offset-x: -394px;
+$filter-tube-2x-offset-y: -138px;
+$filter-tube-2x-width: 22px;
+$filter-tube-2x-height: 20px;
+$filter-tube-2x-total-width: 518px;
+$filter-tube-2x-total-height: 340px;
+$filter-tube-2x-image: '/img/sprite@2x.png';
+$filter-tube-2x: (394px, 138px, -394px, -138px, 22px, 20px, 518px, 340px, '/img/sprite@2x.png', 'filter-tube@2x', );
+$filter-2x-name: 'filter@2x';
+$filter-2x-x: 0px;
+$filter-2x-y: 0px;
+$filter-2x-offset-x: 0px;
+$filter-2x-offset-y: 0px;
+$filter-2x-width: 198px;
+$filter-2x-height: 204px;
+$filter-2x-total-width: 518px;
+$filter-2x-total-height: 340px;
+$filter-2x-image: '/img/sprite@2x.png';
+$filter-2x: (0px, 0px, 0px, 0px, 198px, 204px, 518px, 340px, '/img/sprite@2x.png', 'filter@2x', );
+$flash-other-2x-name: 'flash-other@2x';
+$flash-other-2x-x: 486px;
+$flash-other-2x-y: 274px;
+$flash-other-2x-offset-x: -486px;
+$flash-other-2x-offset-y: -274px;
+$flash-other-2x-width: 30px;
+$flash-other-2x-height: 42px;
+$flash-other-2x-total-width: 518px;
+$flash-other-2x-total-height: 340px;
+$flash-other-2x-image: '/img/sprite@2x.png';
+$flash-other-2x: (486px, 274px, -486px, -274px, 30px, 42px, 518px, 340px, '/img/sprite@2x.png', 'flash-other@2x', );
+$flash-2x-name: 'flash@2x';
+$flash-2x-x: 352px;
+$flash-2x-y: 138px;
+$flash-2x-offset-x: -352px;
+$flash-2x-offset-y: -138px;
+$flash-2x-width: 32px;
+$flash-2x-height: 30px;
+$flash-2x-total-width: 518px;
+$flash-2x-total-height: 340px;
+$flash-2x-image: '/img/sprite@2x.png';
+$flash-2x: (352px, 138px, -352px, -138px, 32px, 30px, 518px, 340px, '/img/sprite@2x.png', 'flash@2x', );
+$recicle-flow-2x-name: 'recicle-flow@2x';
+$recicle-flow-2x-x: 280px;
+$recicle-flow-2x-y: 214px;
+$recicle-flow-2x-offset-x: -280px;
+$recicle-flow-2x-offset-y: -214px;
+$recicle-flow-2x-width: 34px;
+$recicle-flow-2x-height: 40px;
+$recicle-flow-2x-total-width: 518px;
+$recicle-flow-2x-total-height: 340px;
+$recicle-flow-2x-image: '/img/sprite@2x.png';
+$recicle-flow-2x: (280px, 214px, -280px, -214px, 34px, 40px, 518px, 340px, '/img/sprite@2x.png', 'recicle-flow@2x', );
+$recicle-2x-name: 'recicle@2x';
+$recicle-2x-x: 432px;
+$recicle-2x-y: 96px;
+$recicle-2x-offset-x: -432px;
+$recicle-2x-offset-y: -96px;
+$recicle-2x-width: 86px;
+$recicle-2x-height: 80px;
+$recicle-2x-total-width: 518px;
+$recicle-2x-total-height: 340px;
+$recicle-2x-image: '/img/sprite@2x.png';
+$recicle-2x: (432px, 96px, -432px, -96px, 86px, 80px, 518px, 340px, '/img/sprite@2x.png', 'recicle@2x', );
+$slag-2x-name: 'slag@2x';
+$slag-2x-x: 208px;
+$slag-2x-y: 0px;
+$slag-2x-offset-x: -208px;
+$slag-2x-offset-y: 0px;
+$slag-2x-width: 214px;
+$slag-2x-height: 80px;
+$slag-2x-total-width: 518px;
+$slag-2x-total-height: 340px;
+$slag-2x-image: '/img/sprite@2x.png';
+$slag-2x: (208px, 0px, -208px, 0px, 214px, 80px, 518px, 340px, '/img/sprite@2x.png', 'slag@2x', );
+$smoke-2x-name: 'smoke@2x';
+$smoke-2x-x: 352px;
+$smoke-2x-y: 90px;
+$smoke-2x-offset-x: -352px;
+$smoke-2x-offset-y: -90px;
+$smoke-2x-width: 42px;
+$smoke-2x-height: 38px;
+$smoke-2x-total-width: 518px;
+$smoke-2x-total-height: 340px;
+$smoke-2x-image: '/img/sprite@2x.png';
+$smoke-2x: (352px, 90px, -352px, -90px, 42px, 38px, 518px, 340px, '/img/sprite@2x.png', 'smoke@2x', );
+$turbo-2x-name: 'turbo@2x';
+$turbo-2x-x: 138px;
+$turbo-2x-y: 214px;
+$turbo-2x-offset-x: -138px;
+$turbo-2x-offset-y: -214px;
+$turbo-2x-width: 132px;
+$turbo-2x-height: 74px;
+$turbo-2x-total-width: 518px;
+$turbo-2x-total-height: 340px;
+$turbo-2x-image: '/img/sprite@2x.png';
+$turbo-2x: (138px, 214px, -138px, -214px, 132px, 74px, 518px, 340px, '/img/sprite@2x.png', 'turbo@2x', );
+$spritesheet-width: 259px;
+$spritesheet-height: 170px;
+$spritesheet-image: '/img/sprite.png';
+$spritesheet-sprites: ($ash, $burn-flow, $burn, $capacitor, $co2, $condensate, $couples, $crane, $energy, $filter-tube, $filter, $flash-other, $flash, $recicle-flow, $recicle, $slag, $smoke, $turbo, );
+$spritesheet: (259px, 170px, '/img/sprite.png', $spritesheet-sprites, );
+$retina-spritesheet-width: 518px;
+$retina-spritesheet-height: 340px;
+$retina-spritesheet-image: '/img/sprite@2x.png';
+$retina-spritesheet-sprites: ($ash-2x, $burn-flow-2x, $burn-2x, $capacitor-2x, $co2-2x, $condensate-2x, $couples-2x, $crane-2x, $energy-2x, $filter-tube-2x, $filter-2x, $flash-other-2x, $flash-2x, $recicle-flow-2x, $recicle-2x, $slag-2x, $smoke-2x, $turbo-2x, );
+$retina-spritesheet: (518px, 340px, '/img/sprite@2x.png', $retina-spritesheet-sprites, );
+
+// These "retina group" variables are mappings for the naming and pairing of normal and retina sprites.
+//
+// The list formatted variables are intended for mixins like `retina-sprite` and `retina-sprites`.
+$ash-group-name: 'ash';
+$ash-group: ('ash', $ash, $ash-2x, );
+$burn-flow-group-name: 'burn-flow';
+$burn-flow-group: ('burn-flow', $burn-flow, $burn-flow-2x, );
+$burn-group-name: 'burn';
+$burn-group: ('burn', $burn, $burn-2x, );
+$capacitor-group-name: 'capacitor';
+$capacitor-group: ('capacitor', $capacitor, $capacitor-2x, );
+$co2-group-name: 'co2';
+$co2-group: ('co2', $co2, $co2-2x, );
+$condensate-group-name: 'condensate';
+$condensate-group: ('condensate', $condensate, $condensate-2x, );
+$couples-group-name: 'couples';
+$couples-group: ('couples', $couples, $couples-2x, );
+$crane-group-name: 'crane';
+$crane-group: ('crane', $crane, $crane-2x, );
+$energy-group-name: 'energy';
+$energy-group: ('energy', $energy, $energy-2x, );
+$filter-tube-group-name: 'filter-tube';
+$filter-tube-group: ('filter-tube', $filter-tube, $filter-tube-2x, );
+$filter-group-name: 'filter';
+$filter-group: ('filter', $filter, $filter-2x, );
+$flash-other-group-name: 'flash-other';
+$flash-other-group: ('flash-other', $flash-other, $flash-other-2x, );
+$flash-group-name: 'flash';
+$flash-group: ('flash', $flash, $flash-2x, );
+$recicle-flow-group-name: 'recicle-flow';
+$recicle-flow-group: ('recicle-flow', $recicle-flow, $recicle-flow-2x, );
+$recicle-group-name: 'recicle';
+$recicle-group: ('recicle', $recicle, $recicle-2x, );
+$slag-group-name: 'slag';
+$slag-group: ('slag', $slag, $slag-2x, );
+$smoke-group-name: 'smoke';
+$smoke-group: ('smoke', $smoke, $smoke-2x, );
+$turbo-group-name: 'turbo';
+$turbo-group: ('turbo', $turbo, $turbo-2x, );
+$retina-groups: ($ash-group, $burn-flow-group, $burn-group, $capacitor-group, $co2-group, $condensate-group, $couples-group, $crane-group, $energy-group, $filter-tube-group, $filter-group, $flash-other-group, $flash-group, $recicle-flow-group, $recicle-group, $slag-group, $smoke-group, $turbo-group, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `retina-sprite` mixin sets up rules and a media query for a sprite/retina sprite.
+//   It should be used with a "retina group" variable.
+//
+// The media query is from CSS Tricks: https://css-tricks.com/snippets/css/retina-display-media-query/
+//
+// $icon-home-group: ('icon-home', $icon-home, $icon-home-2x, );
+//
+// .icon-home {
+//   @include retina-sprite($icon-home-group);
+// }
+@mixin sprite-background-size($sprite) {
+  $sprite-total-width: nth($sprite, 7);
+  $sprite-total-height: nth($sprite, 8);
+  background-size: $sprite-total-width $sprite-total-height;
+}
+
+@mixin retina-sprite($retina-group) {
+  $normal-sprite: nth($retina-group, 2);
+  $retina-sprite: nth($retina-group, 3);
+  @include sprite($normal-sprite);
+
+  @media (-webkit-min-device-pixel-ratio: 2),
+         (min-resolution: 192dpi) {
+    @include sprite-image($retina-sprite);
+    @include sprite-background-size($normal-sprite);
+  }
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
+
+// The `retina-sprites` mixin generates a CSS rule and media query for retina groups
+//   This yields the same output as CSS retina template but can be overridden in SCSS
+//
+// @include retina-sprites($retina-groups);
+@mixin retina-sprites($retina-groups) {
+  @each $retina-group in $retina-groups {
+    $sprite-name: nth($retina-group, 1);
+    .#{$sprite-name} {
+      @include retina-sprite($retina-group);
+    }
+  }
+}
