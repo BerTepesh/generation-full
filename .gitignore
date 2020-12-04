@@ -3,3 +3,6 @@ node_modules
 .idea/deployment.xml
 .idea/webServers.xml
 .vscode
+.vscode/launch.json
+.vscode/settings.json
+.vscode/tasks.json
